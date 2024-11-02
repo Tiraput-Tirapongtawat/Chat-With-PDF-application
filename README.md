@@ -5,7 +5,13 @@ Chat with PDF using RAG, FastAPI, and LangChain This project demonstrates an int
 We are trying to catch up with the current trends in LLM, we have a bunch of papers
 downloaded from the internet. We need your help to create a Chat With PDF application.
 
+# Table of content
+
+
+
 # How does it work
+
+
 
 # How to run it on local machine using docker-compose
 
