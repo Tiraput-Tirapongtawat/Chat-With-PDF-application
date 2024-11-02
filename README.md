@@ -11,12 +11,12 @@ downloaded from the internet. We need your help to create a Chat With PDF applic
   3. Future Improvements
 
 
-# How does it work
+# How Does It Work?
 
 
 
-# How to run it on local machine using docker-compose
+# Running Locally with Docker Compose
 
-# How to improve in the future
+# Future Improvement
 
 
