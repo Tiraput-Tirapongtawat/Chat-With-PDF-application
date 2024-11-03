@@ -62,7 +62,6 @@ To build and run the application with Docker Compose, use the following command:
 
 Incorporate more sophisticated embeddings or custom-trained models to improve context retrieval.
 Introduce mechanisms to better handle ambiguous queries by asking clarifying questions.
-Scalability and Performance:
 
 **2. Scalability and Performance:**
    
@@ -73,7 +72,6 @@ Consider using Redis or another in-memory database for faster retrieval of conve
 
 Add authentication and authorization to restrict access to the API.
 Encrypt sensitive data, such as API keys, using secure key management practices.
-Analytics and Monitoring:
 
 **4. Analytics and Monitoring:**
 
