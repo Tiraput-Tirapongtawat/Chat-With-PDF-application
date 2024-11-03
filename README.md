@@ -62,7 +62,7 @@ Integrate logging and monitoring solutions (e.g., Prometheus, Grafana) to track 
 Use these insights to improve system performance and user experience.
 User Feedback Mechanism:
 
-**5. User Feedback Mechanism: **
+**5. User Feedback Mechanism:**
 
 Introduce a feedback system that allows users to rate responses. Use this data to improve model performance or adjust response generation.
 Language Support:
