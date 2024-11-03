@@ -17,7 +17,7 @@ load_dotenv()
 # your .env file.
 os.environ["OPENAI_API_KEY"] = 'your api key'
 CHROMA_PATH = "chroma"
-DATA_PATH = r"database"
+DATA_PATH = r"path your database"
 
 
 def main():
