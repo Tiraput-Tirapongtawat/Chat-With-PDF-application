@@ -4,3 +4,6 @@ langchain
 langchain-openai
 chroma 
 pydantic
+langchain_chroma
+langchain-community
+langchain_openai
