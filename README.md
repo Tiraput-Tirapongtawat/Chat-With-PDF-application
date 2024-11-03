@@ -12,7 +12,7 @@ downloaded from the internet. We need your help to create a Chat With PDF applic
 
 
 # How Does It Work?
-The API has three main endpoints:
+
 
 **Create data base**
 
@@ -21,7 +21,7 @@ The API has three main endpoints:
 3. run createdatabase.py to create database
 
 
-
+The API has three main endpoints:
 **Query Endpoint (/query/):**
 
   Description: This endpoint accepts a user query and retrieves relevant context from a Chroma database.
