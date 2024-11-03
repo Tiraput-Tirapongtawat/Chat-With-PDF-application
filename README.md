@@ -14,6 +14,14 @@ downloaded from the internet. We need your help to create a Chat With PDF applic
 # How Does It Work?
 The API has three main endpoints:
 
+**Create data base**
+
+1. Create database folder and put pdf file that you talk with
+2. add path database folder in createdatabase.py and it will create chroma folder for you
+3. run createdatabase.py to create database
+
+
+
 **Query Endpoint (/query/):**
 
   Description: This endpoint accepts a user query and retrieves relevant context from a Chroma database.
