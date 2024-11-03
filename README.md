@@ -46,14 +46,16 @@ After running main.py, use the following commands to interact with the API:
 
 1. Ask question :
    'curl -X POST "http://127.0.0.1:8000/query/" -H "Content-Type: application/json" -d "{\"query_text\": \"What is SQL?\"}"'
-
 2. Clear history
    'curl -X POST "http://127.0.0.1:8000/clear_memory/" -H "Content-Type: application/json"'
 3. Show history
    'curl -X GET "http://127.0.0.1:8000/history/"'
    
 # Running Locally with Docker Compose
-you can use this coommand to build docker-compose -> docker-compose up -d --build
+To build and run the application with Docker Compose, use the following command:
+'docker-compose up -d --build'
+
+
 # Future Improvement
 
 **1.Enhanced Query Processing:**
