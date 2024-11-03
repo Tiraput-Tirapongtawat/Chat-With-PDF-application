@@ -16,10 +16,9 @@ downloaded from the internet. We need your help to create a Chat With PDF applic
 
 **Create data base**
 
-1. Create database folder and put pdf file that you talk with
-2. add path database folder in createdatabase.py and it will create chroma folder for you
-3. run createdatabase.py to create database
-
+1. Prepare the Database Folder: Create a folder for your database and place the PDF files you want to interact with in this folder.
+2. Specify Path: In create_datadb.py, specify the path to the database folder.
+3. Generate the Chroma Database: Run create_datadb.py to initialize the Chroma database. This will create a chroma folder to store the embeddings.
 
 The API has three main endpoints:
 **Query Endpoint (/query/):**
@@ -42,9 +41,19 @@ The API has three main endpoints:
   Description: Resets the conversation memory, clearing any stored queries and responses.
   Usage: Allows users to start a new session without any retained context from previous interactions.
 
+Example Commands
+After running main.py, use the following commands to interact with the API:
 
+1. Ask question :
+   'curl -X POST "http://127.0.0.1:8000/query/" -H "Content-Type: application/json" -d "{\"query_text\": \"What is SQL?\"}"'
+
+2. Clear history
+   'curl -X POST "http://127.0.0.1:8000/clear_memory/" -H "Content-Type: application/json"'
+3. Show history
+   'curl -X GET "http://127.0.0.1:8000/history/"'
+   
 # Running Locally with Docker Compose
-
+you can use this coommand to build docker-compose -> docker-compose up -d --build
 # Future Improvement
 
 **1.Enhanced Query Processing:**
