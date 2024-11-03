@@ -1,10 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from embedding import get_embedding_function
 from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
+from langchain_openai import OpenAIEmbeddings
 import os
 
 app = FastAPI()
@@ -31,7 +31,7 @@ Answer the question based on the above context and conversation history: {questi
 memory = ConversationBufferMemory(return_messages=True)
 
 # Initialize the embedding and Chroma DB only once for efficiency
-embedding_function = get_embedding_function()
+embedding_function = OpenAIEmbeddings(model="text-embedding-3-large")
 db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
 class QueryRequest(BaseModel):
