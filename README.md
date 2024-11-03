@@ -68,5 +68,6 @@ Introduce a feedback system that allows users to rate responses. Use this data t
 Language Support:
 
 **6. Language Support:**
+
 Enable multi-language support to expand usability for a global audience.
 
